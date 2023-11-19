@@ -11,7 +11,6 @@ function LikePoke() {
 
   return (
     <div>
-        <h1>test</h1>
         <button onClick={toggleLike}>
             {like ? <FaHeart style={{color: 'red'}}/> : <FaRegHeart/>}
         </button>
